@@ -1,7 +1,9 @@
 {
-  "name": "2025-svelte-demo",
-  "compatibility_date": "2025-05-20",
-  "assets": {
-    "directory": "./.svelte-kit/output",
-  }
+	"name": "2025-svelte-demo",
+	"main": ".svelte-kit/cloudflare/_worker.js",
+	"compatibility_date": "2025-01-01",
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".svelte-kit/cloudflare",
+	}
 }
