@@ -1,0 +1,7 @@
+{
+  "name": "2025-svelte-demo",
+  "compatibility_date": "2025-05-20",
+  "assets": {
+    "directory": "./.svelte-kit/output",
+  }
+}
