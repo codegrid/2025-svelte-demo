@@ -3,4 +3,3 @@
 </script>
 
 <button {...attrs}>{label}</button>
-
