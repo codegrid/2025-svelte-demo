@@ -19,8 +19,8 @@
 </script>
 
 <ul>
-  {#each brothers as bro, index (bro.id)}
-    <li>{index + 1}: {bro.name}（{bro.age}歳）</li>
+  {#each brothers as bro (bro.id)}
+    <li>+ 1}: {bro.name}（{bro.age}歳）</li>
   {:else}
     <li>兄弟はいません。</li>
   {/each}
