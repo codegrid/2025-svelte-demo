@@ -1,3 +1,5 @@
+<p>DevToolsを開き、クラスにユニークな文字列が付与されていることを確認してください</p>
+
 <script>
   import ExampleComponent from './ExampleComponent.svelte'
 </script>
@@ -6,11 +8,6 @@
   <h1 class="title">Svelte</h1>
   <p class="description">web development for the rest of us</p>
   <ExampleComponent/>
-</div>
-
-<div class="App">
-  <h1 class="title">Svelte</h1>
-  <p class="description">web development for the rest of us</p>
 </div>
 
 <style>
