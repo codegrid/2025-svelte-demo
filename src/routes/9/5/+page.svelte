@@ -6,10 +6,16 @@
   onMount(() => dynamicDiv.classList.add("used"));
 </script>
 
-<!-- DOMを直接操作できるように`dynamicDiv`変数へ格納している -->
-<div bind:this={dynamicDiv}>Dynamic</div>
+<div class="App">
+  <!-- DOMを直接操作できるように`dynamicDiv`変数へ格納している -->
+  <div bind:this={dynamicDiv}>Dynamic</div>
+</div>
 
 <style>
+  .App {
+    font-size: 24px;
+  }
+
   .used {
     color: blue;
   }
