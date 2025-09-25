@@ -1,21 +1,21 @@
 <script>
   let brothers = [
     {
-      id: 'ichiro',
-      name: '一郎',
+      id: "ichiro",
+      name: "一郎",
       age: 20,
     },
     {
-      id: 'jiro',
-      name: '二郎',
+      id: "jiro",
+      name: "二郎",
       age: 18,
     },
     {
-      id: 'saburo',
-      name: '三郎',
+      id: "saburo",
+      name: "三郎",
       age: 12,
     },
-  ]
+  ];
 </script>
 
 <ul>

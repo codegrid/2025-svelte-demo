@@ -12,7 +12,7 @@
 </script>
 
 <label>
-  何か入力してください: 
+  何か入力してください:
   <input onkeydown={handleKeyDown} />
 </label>
 
